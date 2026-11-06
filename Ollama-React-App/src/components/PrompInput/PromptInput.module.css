@@ -1,0 +1,40 @@
+.prompt-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background: #17172D;
+    border: 1px solid #5145CD;
+    border-radius: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.prompt-container input {
+    flex: 1;
+    padding: 12px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.prompt-container input::placeholder {
+    color: #9999B5;
+}
+
+.prompt-container button {
+    padding: 12px 22px;
+    background: linear-gradient(135deg, #9333EA, #4F46E5);
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.prompt-container button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
