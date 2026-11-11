@@ -1,3 +1,5 @@
+<img src="https://socialify.git.ci/khethiwengema04-gif/Ollama-React-App/image?language=1&owner=1&name=1&stargazers=1&theme=Light" alt="Ollama-React-App" width="640" height="320" />
+
 # AURA AI
 
 # The Project Description
@@ -35,7 +37,7 @@ npm run dev
 
 ```bash
 git add .
-git commit -m "Initial AURA AI project setup"
+git commit -m "Initial KHEPIA AI project setup"
 git push
 ```
 
